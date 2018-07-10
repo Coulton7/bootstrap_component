@@ -8,7 +8,7 @@
 ?>
 
 
-<script src="<?php print $base_url?>/sites/all/themes/bootstrap_component/js/jquery.elevateZoom-3.0.8.min.js"> </script>
+<script src="/sites/all/themes/bootstrap_component/js/jquery.elevateZoom-3.0.8.min.js"> </script>
 <script>
     $(function() {
       $('.field-name-field-cross-section, .field-name-field-productimg ').each(function(){
@@ -123,4 +123,4 @@
  <?php print $drupal_render_children ?>
 <?php endif; ?>
 
-<script src="<?php print $base_url?>/sites/all/themes/bootstrap_component/js/svgDraw.js"> </script>
+<script src="/sites/all/themes/bootstrap_component/js/svgDraw.js"> </script>
