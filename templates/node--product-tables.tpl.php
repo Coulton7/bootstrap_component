@@ -118,7 +118,7 @@
       print render($content);
     ?>
    
-<script src="<?php print $base_url ?>/sites/all/themes/bootstrap_component/js/table-slider.js"> </script>
+<script src="/sites/all/themes/bootstrap_component/js/table-slider.js"> </script>
 
  <?php if($field_imperial_sizes_table):?>
 <ul class="nav nav-tabs roll="tablist">
