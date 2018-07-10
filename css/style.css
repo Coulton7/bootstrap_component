@@ -8174,6 +8174,11 @@ a.gallery img.active {
   font-size: 20px;
   width: 100%;
 }
+.block-facetapi .facetapi-facetapi-select-dropdowns .form-type-select .form-control {
+    padding: 0;
+    border: none;
+    background: none;
+}
 .chosen-container-single .chosen-single {
   background: none;
   background-color: #FFF;
