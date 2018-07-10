@@ -8184,6 +8184,9 @@ a.gallery img.active {
   background: none;
   background-color: #FFF;
 }
+.entity.entity-entityform-type h2 {
+    display: none;
+}
 .region-cta .view-display-id-block .form-group {
   margin-bottom: 5px;
 }
