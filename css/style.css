@@ -7615,7 +7615,7 @@ li.chameleon a {
   padding-bottom: 20px;
 }
 .blue-feature {
-  background-image: url('/sites/all/bootstrap_component/images/Customer-Service-Blue.jpg');
+  background-image: url('/sites/all/themes/bootstrap_component/images/Customer-Service-Blue.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8348,7 +8348,7 @@ a.gallery img.active {
   text-align: center;
 }
 .wave-background {
-  background-image: url('/sites/all/bootstrap_component/images/drop-wave.png');
+  background-image: url('/sites/all/themes/bootstrap_component/images/drop-wave.png');
   background-repeat: no-repeat;
   height: 70px;
   background-position: bottom right;
@@ -8359,7 +8359,7 @@ a.gallery img.active {
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3
  * http://geedmo.github.com/yamm3
- * 
+ *
  * @geedmo - Licensed under the MIT license
  */
 .yamm .nav,
