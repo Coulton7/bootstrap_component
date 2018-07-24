@@ -961,7 +961,6 @@ a.gallery img.active {
   *width: 14.285714285714285714285714285714%;
   float: left;
 }
-
 .view-build-materials-taxonomy .view-content {
   width: 100%;
   display: table;
@@ -982,6 +981,9 @@ a.gallery img.active {
 }
 .front-3-col img {
   width: 40%;
+}
+.field-name-field-hidden-form-url {
+  visibility: hidden;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,

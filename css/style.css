@@ -205,7 +205,3 @@
 .contact-map:hover {
   border: 1px solid #dd1e25;
 }
-
-.field-name-field-hidden-form-url {
-  visibility: hidden;
-}
