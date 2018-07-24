@@ -40,11 +40,6 @@
   background-color: #dd1e25;
 }
 
-@media (max-width: 767px) {
-  .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 22px;
-  }
-}
 .navbar-inverse .navbar-brand {
   color: #dcddde;
 }
@@ -53,11 +48,6 @@
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #dcddde;
-}
-@media (max-width: 767px) {
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #dcddde;
-  }
 }
 .navbar-inverse .navbar-link {
   color: #dcddde;
@@ -70,12 +60,6 @@
   margin-right: -15px;
   padding-left: 15px;
   padding-right: 15px;
-}
-@media screen and (min-width: 768px) {
-  .navbar .logo {
-    margin-right: 0;
-    padding-left: 0;
-  }
 }
 
 .breadcrumb {
@@ -347,12 +331,7 @@
   padding-right: 15px;
   padding-left: 0px;
 }
-@media (min-width: 992px) {
-  .region-cta .view-display-id-block .entityform .field-type-text {
-    float: left;
-    width: 50%;
-  }
-}
+
 .region-cta .view-display-id-block .entityform .field-type-text input {
   background-color: transparent;
   color: #FFF;
@@ -372,4 +351,27 @@
 .region-cta .view-display-id-block .entityform .form-submit:hover {
   background-color: #FFF;
   color: #000;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 22px;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #dcddde;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .logo {
+    margin-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .region-cta .view-display-id-block .entityform .field-type-text {
+    float: left;
+    width: 50%;
+  }
 }
