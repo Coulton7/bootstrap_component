@@ -1,3 +1,19 @@
+.navbar.container {
+  margin-top: 0px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar-default .dropdown {
+  width: 150px;
+}
+.auto-height {
+  max-height: 600px;
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -967,7 +983,6 @@ a.gallery img.active {
 .front-3-col img {
   width: 40%;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
   input[type="time"].form-control,
@@ -976,7 +991,6 @@ a.gallery img.active {
     line-height: 36px;
   }
 }
-
 @media (min-width: 992px) {
   .region-pre-content .block-facetapi {
     float: left;
@@ -1012,13 +1026,11 @@ a.gallery img.active {
     width: 33.33333333%;
   }
 }
-
 @media screen and (min-width: 992px) {
   .navbar #block-search-form {
     float: right;
   }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .gallery .field-name-field-cross-section .field-item,
   .gallery .field-name-field-productimg .field-item {
@@ -1029,7 +1041,6 @@ a.gallery img.active {
     font-size: 16px;
   }
 }
-
 @media (min-width: 768px) {
   .view-product-index .view-header {
     float: left;
@@ -1055,7 +1066,6 @@ a.gallery img.active {
     float: right;
   }
 }
-
 @media (max-width: 767px) {
   .gallery .field-name-field-cross-section .field-item,
   .gallery .field-name-field-productimg .field-item {
@@ -1078,23 +1088,6 @@ a.gallery img.active {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #dddddd;
   }
-}
-.navbar.container {
-  margin-top: 0px;
-}
-.navbar {
-  margin-bottom: 0px;
-}
-.navbar-default {
-  background-color: transparent;
-  border: none;
-}
-.navbar-default .dropdown {
-  width: 150px;
-}
-
-.auto-height {
-  max-height: 600px;
 }
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3
