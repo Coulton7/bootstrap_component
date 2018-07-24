@@ -488,3 +488,7 @@ p:last-child {
 .error {
   color: #a94442;
 }
+.views-display-settings .label {
+  font-size: 100%;
+  color: #666666;
+}
