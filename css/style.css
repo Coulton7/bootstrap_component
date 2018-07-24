@@ -190,6 +190,15 @@
   background-position: center center;
 }
 
+.trademark {
+  background-color: #888c8f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+}
+
 .contact-map {
   border: 1px solid #888c8f;
 }
