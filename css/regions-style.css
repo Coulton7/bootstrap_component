@@ -1,3 +1,16 @@
+.navbar.container {
+  margin-top: 0px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar-default .dropdown {
+  width: 150px;
+}
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
