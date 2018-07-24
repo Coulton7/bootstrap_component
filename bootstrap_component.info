@@ -30,5 +30,8 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = 'css/style.css'
+stylesheets[all][] = 'css/fonts-style.css'
+stylesheets[all][] = 'css/field-style.css'
+stylesheets[all][] = 'css/regions-style.css'
 
 scripts[] = 'js/componentui.js'
