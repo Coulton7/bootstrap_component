@@ -49,6 +49,14 @@
   max-width: 100%;
   height: auto;
 }
+.full-width-image {
+  width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  background-position: center center;
+}
 .bg-primary {
   color: #fff;
   background-color: #dd1e25;
