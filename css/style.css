@@ -181,15 +181,6 @@
   background-position: -21px 0;
 }
 
-.full-width-image {
-  width: 100%;
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 30px;
-  background-position: center center;
-}
-
 .trademark {
   background-color: #888c8f;
   padding-top: 20px;
