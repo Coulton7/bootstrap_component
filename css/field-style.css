@@ -511,6 +511,12 @@ fieldset[disabled] .btn-primary.focus {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
+
+.facetapi-facetapi-select-dropdowns .form-type-select .form-control {
+  padding: 0;
+  border: none;
+  background: none;
+}
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
