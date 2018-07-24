@@ -512,11 +512,6 @@ fieldset[disabled] .btn-primary.focus {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.facetapi-facetapi-select-dropdowns .form-type-select .form-control {
-  padding: 0;
-  border: none;
-  background: none;
-}
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
@@ -731,7 +726,7 @@ fieldset .panel-heading a.panel-title:hover {
   padding: 0;
   border: none;
   background: none;
-}
+}/*Class above for removing form control background on product filters*/
 .chosen-container-single .chosen-single {
   background: none;
   background-color: #FFF;
