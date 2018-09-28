@@ -144,6 +144,11 @@
   color: #FFF;
 }
 
+.front .chameleon {
+  background-color: #829AAD;
+  /* Old browsers */
+}
+
 .multiple-spring .chameleon {
   background-color: #0081C9;
 }
@@ -195,10 +200,6 @@
 
 .page-header {
   transition: color 3s;
-}
-.front .chameleon {
-  background-color: #829AAD;
-  /* Old browsers */
 }
 
 .region-cta {
