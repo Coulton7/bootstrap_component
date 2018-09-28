@@ -29,9 +29,9 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = 'css/block-style.css'
-stylesheets[all][] = 'css/fonts-style.css'
-stylesheets[all][] = 'css/field-style.css'
-stylesheets[all][] = 'css/regions-style.css'
+stylesheets[all][] = css/block-style.css
+stylesheets[all][] = css/fonts-style.css
+stylesheets[all][] = css/field-style.css
+stylesheets[all][] = css/regions-style.css
 
-scripts[] = 'js/componentui.js'
+scripts[] = js/componentui.js
