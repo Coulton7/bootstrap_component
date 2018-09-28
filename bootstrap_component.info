@@ -33,5 +33,10 @@ stylesheets[all][] = css/block-style.css
 stylesheets[all][] = css/fonts-style.css
 stylesheets[all][] = css/field-style.css
 stylesheets[all][] = css/regions-style.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/overrides.css
 
 scripts[] = js/componentui.js
+scripts[] = js/table-slider.js
+scripts[] = js/svgDraw.js
+scripts[] = js/jquery.elevateZoom-3.0.8.min.js
