@@ -75,6 +75,10 @@
   padding-right: 15px;
 }
 
+.navbar-collapse.collapse{
+  margin-left: 100px !important;
+}
+
 .breadcrumb {
   margin-bottom: 22px;
 }
