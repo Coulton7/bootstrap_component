@@ -722,6 +722,22 @@ fieldset .panel-heading a.panel-title:hover {
   -moz-box-shadow: -4px -3px 1px -1px rgba(0, 0, 0, 0.22);
   box-shadow: -4px -3px 1px -1px rgba(0, 0, 0, 0.22);
 }
+
+.field-name-field-download-file .file a {
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff!important;
+  border: none!important;
+  border-radius: 0;
+  padding: 5px 15px;
+}
+
+.field-name-field-download-file .file a {
+  background:#fa010a;
+	color:#ffffff!important;
+	border:none!important;
+}
+
 .block-facetapi .facetapi-facetapi-select-dropdowns .form-type-select .form-control {
   padding: 0;
   border: none;

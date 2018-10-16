@@ -400,6 +400,13 @@ p:last-child {
   padding-bottom: 10px;
 }
 
+.field-name-changed-date .field-label {
+  color: #dd1e25;
+  font-size: inherit;
+  font-weight: initial;
+  padding-bottom: 10px;
+}
+
 .thumbnail .caption {
   color: #535454;
 }
