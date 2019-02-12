@@ -83,7 +83,7 @@
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  
+
                <?php print render($title_prefix); ?>
                <?php if (!$page): ?>
                     <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
@@ -95,18 +95,18 @@
                 <?php print $submitted; ?>
             </div>
           <?php endif; ?>
-  
+
   <h2><?php print render($content['field_sub_title']); ?></h2>
 
 
 <div>
 
- 
-  
-  <div class="row">
-    
 
-        
+
+  <div class="row">
+
+
+
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
@@ -117,65 +117,65 @@
   hide($content['field_imperial_sizes_table']);
       print render($content);
     ?>
-   
+
 <script src="/sites/all/themes/bootstrap_component/js/table-slider.js"> </script>
 
  <?php if($field_imperial_sizes_table):?>
-<ul class="nav nav-tabs roll="tablist">
-  
+<ul class="nav nav-tabs" roll="tablist">
+
   <li role="tab" class="active"><a data-toggle="tab" href="#metric-table">Metric</a></li>
   <li role="tab"><a data-toggle="tab" href="#imperial-table">Imperial</a></li>
 </ul>
- <?php endif;?>    
+ <?php endif;?>
 
  <div class="tab-content">
-    
+
     <div id="metric-table" class="tab-pane fade in active">
-        
+
        <?php if(isset($field_build_code_table['und'][0]['value'])): ?>
           <?php if($field_build_code_table['und'][0]['value'] == 0):?>
                                <p class="size-slider">
     <label for="amount">Shaft Size (d1):</label>
-    <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" value="0" /> 
+    <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" value="0" />
 </p>
 
- 
+
 <div id="slider-range"></div>
           <?php else:?>
 
-    <?php endif;?>  
-<?php endif;?>  
- 
+    <?php endif;?>
+<?php endif;?>
+
             <?php print render($content['field_sizes_table']);?>
     </div>
-        
+
     <div id="imperial-table" class="tab-pane fade">
-        
+
                      <p class="size-slider">
     <label for="amount-imp">Shaft Size (d1):</label>
-    <input type="text" id="amount-imp" style="border: 0; color: #f6931f; font-weight: bold;" /> 
+    <input type="text" id="amount-imp" style="border: 0; color: #f6931f; font-weight: bold;" />
 </p>
 
- 
+
 <div id="slider-range-imp"></div>
-        
+
         <?php print render($content['field_imperial_sizes_table']);?>
-    </div>       
- </div>
-    
     </div>
-  
- 
-      
+ </div>
+
+    </div>
+
+
+
       <?php if (!empty($region['sidebar_second'])): ?>
       <aside class="col-sm-3 right-sidebar" role="complementary">
         <?php print render($region['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
-      
-    
-    
-   
+
+
+
+
 
 
 
