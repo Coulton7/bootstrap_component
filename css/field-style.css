@@ -629,7 +629,8 @@ fieldset[disabled] .form-control {
   height: auto;
 }
 
-.table {
+.table,
+.tablefield {
   width: 100%;
   max-width: 100%;
   margin-bottom: 22px;
@@ -640,7 +641,13 @@ fieldset[disabled] .form-control {
 .table>tfoot>tr>th,
 .table>thead>tr>td,
 .table>tbody>tr>td,
-.table>tfoot>tr>td {
+.table>tfoot>tr>td,
+.tablefield>thead>tr>th,
+.tablefield>tbody>tr>th,
+.tablefield>tfoot>tr>th,
+.tablefield>thead>tr>td,
+.tablefield>tbody>tr>td,
+.tablefield>tfoot>tr>td {
   padding: 8px;
   line-height: 1.6;
   vertical-align: top;
@@ -715,7 +722,7 @@ table>tbody>tr.active>td,
 table>tfoot>tr.active>td,
 table>thead>tr.active>th,
 table>tbody>tr.active>th,
-able>tfoot>tr.active>th {
+table>tfoot>tr.active>th {
   background-color: #f5f5f5;
 }
 
