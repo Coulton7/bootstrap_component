@@ -1026,6 +1026,14 @@ a.gallery img.active {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #dddddd;
   }
+  .view-t05-search .view-filters .views-widget-filter-search_api_views_fulltext {
+    float: left;
+    width: 66.66666667%;
+  }
+  .view-t05-search .view-filters .views-submit-button {
+    float: left;
+    width: 33.33333333%;
+  }
 }
 @media (min-width: 768px) {
   .view-product-index .view-header {
