@@ -1072,7 +1072,6 @@ a.gallery img.active {
     width: 100%;
   }
   .view-t05-search .view-filters {
-    float: left;
     width: 50%;
   }
   .view-t05-search .view-filters .views-widget-filter-search_api_views_fulltext {
