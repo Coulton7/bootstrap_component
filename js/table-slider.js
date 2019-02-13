@@ -20,9 +20,11 @@
         $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] + "mm" );
 
         var table = $("#metric-table .table")[0];
-        for (var i = 1, row; row = table.rows[i]; i++) {
+        var i = 1, row;
+        var j = 0, col;
+        for (row = table.rows[i]; i++;) {
            //iterate through rows (we SKIP the first row: counter starts at 1!)
-           for (var j = 0, col; col = row.cells[j]; j++) {
+           for (col = row.cells[j]; j++;) {
                //iterate through columns: if first column not in range: HIDE, else SHOW
 
                if (j == 1) {             // if first column
@@ -62,12 +64,14 @@
       values: [ impminVal, impmaxVal ],
         slide: function( event, ui ) {
       var table = $("#imperial-table .table")[0];
+      var i = 1, row;
+      var j = 0, col;
         // in this function we can define what happens when a user changes the sliders
         $( "#amount-imp" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] + " Inches" );
 
-        for (var i = 1, row; row = table.rows[i]; i++) {
+        for (row = table.rows[i]; i++;) {
            //iterate through rows (we SKIP the first row: counter starts at 1!)
-           for (var j = 0, col; col = row.cells[j]; j++) {
+           for (col = row.cells[j]; j++;) {
                //iterate through columns: if first column not in range: HIDE, else SHOW
 
                if (j == 1) {             // if first column
