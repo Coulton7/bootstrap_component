@@ -134,13 +134,13 @@
 
        <?php if(isset($field_build_code_table['und'][0]['value'])): ?>
           <?php if($field_build_code_table['und'][0]['value'] == 0):?>
-                               <p class="size-slider">
+                               <!--<p class="size-slider">
     <label for="amount">Shaft Size (d1):</label>
     <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" value="0" />
 </p>
 
 
-<div id="slider-range"></div>
+<div id="slider-range"></div>-->
           <?php else:?>
 
     <?php endif;?>
@@ -151,13 +151,13 @@
 
     <div id="imperial-table" class="tab-pane fade">
 
-                     <p class="size-slider">
+                     <!--<p class="size-slider">
     <label for="amount-imp">Shaft Size (d1):</label>
     <input type="text" id="amount-imp" style="border: 0; color: #f6931f; font-weight: bold;" />
 </p>
 
 
-<div id="slider-range-imp"></div>
+<div id="slider-range-imp"></div>-->
 
         <?php print render($content['field_imperial_sizes_table']);?>
     </div>

@@ -19,7 +19,7 @@
         // in this function we can define what happens when a user changes the sliders
         $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] + "mm" );
 
-        var table = document.getElementById("#metric-table .table")[0];
+        var table = document.getElementById("#metric-table")[0];
         for (var i = 1, row; row = table.rows[i]; i++;) {
            //iterate through rows (we SKIP the first row: counter starts at 1!)
            for (var j = 0, col; col = row.cells[j]; j++;) {
@@ -61,7 +61,7 @@
       step: 0.01,
       values: [ impminVal, impmaxVal ],
         slide: function( event, ui ) {
-      var table = document.getElementById("#imperial-table .table")[0];
+      var table = document.getElementById("#imperial-table")[0];
         // in this function we can define what happens when a user changes the sliders
         $( "#amount-imp" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] + " Inches" );
 
