@@ -80,9 +80,7 @@
   global $base_path, $base_url;
 ?>
 
-
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
 
                <?php print render($title_prefix); ?>
                <?php if (!$page): ?>
@@ -98,14 +96,9 @@
 
   <h2><?php print render($content['field_sub_title']); ?></h2>
 
-
 <div>
 
-
-
   <div class="row">
-
-
 
     <?php
       // We hide the comments and links now so that we can render them later.
@@ -113,8 +106,8 @@
       hide($content['links']);
       hide($content['field_image']);
       hide($content['field_sub_title']);
-       hide($content['field_sizes_table']);
-  hide($content['field_imperial_sizes_table']);
+      hide($content['field_sizes_table']);
+      hide($content['field_imperial_sizes_table']);
       print render($content);
     ?>
 
@@ -134,13 +127,13 @@
 
        <?php if(isset($field_build_code_table['und'][0]['value'])): ?>
           <?php if($field_build_code_table['und'][0]['value'] == 0):?>
-                               <!--<p class="size-slider">
+                               <p class="size-slider">
     <label for="amount">Shaft Size (d1):</label>
     <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" value="0" />
 </p>
 
 
-<div id="slider-range"></div>-->
+<div id="slider-range"></div>
           <?php else:?>
 
     <?php endif;?>
@@ -151,13 +144,13 @@
 
     <div id="imperial-table" class="tab-pane fade">
 
-                     <!--<p class="size-slider">
+                     <p class="size-slider">
     <label for="amount-imp">Shaft Size (d1):</label>
     <input type="text" id="amount-imp" style="border: 0; color: #f6931f; font-weight: bold;" />
 </p>
 
 
-<div id="slider-range-imp"></div>-->
+<div id="slider-range-imp"></div>
 
         <?php print render($content['field_imperial_sizes_table']);?>
     </div>
@@ -165,19 +158,11 @@
 
     </div>
 
-
-
       <?php if (!empty($region['sidebar_second'])): ?>
       <aside class="col-sm-3 right-sidebar" role="complementary">
         <?php print render($region['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
-
-
-
-
-
-
 
   <?php
     // Remove the "Add new comment" link on the teaser page or if the comment
