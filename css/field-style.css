@@ -1005,7 +1005,7 @@ fieldset .panel-heading a.panel-title:hover {
   padding: 5px 15px;
 }
 
-.field-name-field-download-file .file a {
+.field-name-field-download-file .file a:hover {
   background: #fa010a;
   color: #ffffff !important;
   border: none !important;
