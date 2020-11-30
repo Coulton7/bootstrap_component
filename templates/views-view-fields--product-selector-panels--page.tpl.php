@@ -32,26 +32,12 @@
   <?php endif; ?>
 
 <div class="row" >
-	
+
   <div class="col-md-4 col-sm-4 col-xs-4">
   	<?php print $fields['field_image']->content; ?>
   </div>
   <div class="col-md-8 col-sm-8 col-xs-8" style="height:100%;">
- <h2> <?php print $fields['name']->content; ?></h2>
+    <h2> <?php print $fields['name']->content; ?></h2>
+  </div>
 
 </div>
-
-
-</div>
-
-
-
-
-
-
-
-
- 
-
-
-
