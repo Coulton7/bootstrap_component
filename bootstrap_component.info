@@ -29,6 +29,8 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] = bootstrap/css/bootstrap-theme.min.css
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
 stylesheets[all][] = css/regions-style.css
 stylesheets[all][] = css/block-style.css
 stylesheets[all][] = css/fonts-style.css
