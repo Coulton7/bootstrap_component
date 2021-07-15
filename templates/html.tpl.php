@@ -57,22 +57,35 @@
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <?php
+if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) {
+$origin =$_SERVER['HTTP_ORIGIN'];
+$allowed_domains= [
+  'https://api.hubspot.com',
+  'https://forms.hubspot.com',
+];
+
+if(in_array($origin, $allowed_domains)){
+  header('Access-Control-Allow-Origin: ' . $origin);
+}
+}
+?>
   <?php print $scripts; ?>
-  
+
   <!--[if !IE]><!--><script type="text/javascript">
-  
+
   $(function() {
-      
+
        $('.product-type').hover(function() {
        var type = $(this).attr("data-chameleon")
        var typeclass= type.toLowerCase()
       $('body').toggleClass("hover-"+typeclass)
     })
         });
-  
+
  </script><!--<![endif]-->
- 
-  
+
+
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
