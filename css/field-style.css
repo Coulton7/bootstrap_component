@@ -1322,6 +1322,31 @@ a.gallery img.active {
   visibility: hidden;
 }
 
+.hs-visible-form input {
+  color: #535354;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.hs-visible-form ul {
+  list-style: none;
+}
+
+.hs-visible-form ul li input {
+  margin-right: 0.35em;
+}
+
+.hs-visible-form .btn {
+  width: auto;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display input {
+  margin: 8px 0 0;
+}
+
 .hs-product-form .input input, .hs-visible-form textarea {
   background-color: transparent;
   color: #ffffff;
