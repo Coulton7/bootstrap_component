@@ -36,6 +36,7 @@ stylesheets[all][] = css/block-style.css
 stylesheets[all][] = css/fonts-style.css
 stylesheets[all][] = css/field-style.css
 
+scripts[] = bootstrap/js/bootstrap.min.js
 scripts[] = js/jquery.elevateZoom-3.0.8.min.js
 scripts[] = js/table-slider.js
 scripts[] = js/componentui.js
